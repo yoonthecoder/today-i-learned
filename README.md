@@ -11,12 +11,12 @@ Feel free to check out the different sections, and who knows, maybe you'll find 
 
 ### CMS
 
-- [Headless CMS](/cms/headless-cms)
+- [Headless CMS](/cms/headless-cms.md)
 
 ### Data Strucrtures
 
-- [Linked List](/data-structures/linked-list-data-structure)
+- [Linked List](/data-structures/linked-list-data-structure.md)
 
 ### Next.js
 
-- [App Router](/next.js/app-router)
+- [App Router](/next.js/app-router.md)
