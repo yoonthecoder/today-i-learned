@@ -4,19 +4,20 @@ Hey there! Welcome to my "Today I Learned" (TIL) repo. This is where I jot down 
 Feel free to check out the different sections, and who knows, maybe you'll find something helpful too!
 
 ### Categories
-* [Data Structures](/data-structures)
-* [CMS](/cms)
-* [Next.js](/next.js)
+* [cms](/cms)
+* [data structures](/data-structures)
+* [next.js](/next.js)
 ---
 
-### CMS
+### cms
 
-- [Headless CMS](/cms/headless-cms.md)
+- * [headless cms](/cms/headless-cms.md)
 
-### Data Strucrtures
+### data structures
 
-- [Linked List](/data-structures/linked-list-data-structure.md)
+- * [linked list data structure](/data-structures/linked-list-data-structure.md)
 
-### Next.js
+### next.js
 
-- [App Router](/next.js/app-router.md)
+- * [app router](/next.js/app-router.md)
+
