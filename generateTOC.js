@@ -8,6 +8,13 @@ function createMarkdownLink(name, url) {
   return `* [${name}](${url})`;
 }
 
+function capitalizeTitle(title) {
+  return title
+    .split(' ')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
 // gatheres category and file data
 function generateTOC() {
   const categories = fs
@@ -22,12 +29,12 @@ function generateTOC() {
         .readdirSync(categoryPath)
         .filter((file) => file.endsWith('.md'))
         .map((file) => ({
-          name: path.basename(file, '.md').replace(/-/g, ' '),
+          name: capitalizeTitle(path.basename(file, '.md').replace(/-/g, ' ')),
           path: `/${categoryName}/${file}`,
         }));
 
       return {
-        name: categoryName.replace(/-/g, ' '),
+        name: capitalizeTitle(categoryName.replace(/-/g, ' ')),
         path: `/${categoryName}`,
         files,
       };
