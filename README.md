@@ -9,6 +9,7 @@ Feel free to check out the different sections, and who knows, maybe you'll find 
 * [Data Structures](/data-structures)
 * [Next.js](/next.js)
 * [Node.js](/node.js)
+* [System Design](/system-design)
 ---
 
 ### Cms
@@ -26,4 +27,8 @@ Feel free to check out the different sections, and who knows, maybe you'll find 
 ### Node.js
 
 - * [Top 5 Modules](/node.js/top-5-modules.md)
+
+### System Design
+
+- * [20 Concepts](/system-design/20-concepts.md)
 
